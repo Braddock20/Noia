@@ -1,5 +1,5 @@
 {
-  "name": "instagram-webhook",
+  "name": "instagram-webhook-gemini",
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
@@ -7,7 +7,8 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "@google/generative-ai": "^0.21.0"
   },
   "engines": {
     "node": ">=18.0.0"
